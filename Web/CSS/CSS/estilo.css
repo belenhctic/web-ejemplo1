@@ -1,0 +1,43 @@
+body{
+    background-color:#A5744E;
+}
+h1{
+    font-family: arial;
+    font-size: 60;
+    color:red;
+    text-align: center;
+}
+#gay{
+     width: 240px;
+     height: 220px;
+     border-radius: 25%;
+     border: 1px solid #ff0000; 
+     display: block;
+     margin: 1 auto;    
+}
+h2, h3, p {
+       text-align:center;
+ }
+ #gato{
+    display:block;
+    margin: 1 auto;
+}
+
+#tilin{
+      display:block;
+      margin: 1 auto;
+      color:black;
+      background-color:yellow;
+      padding: 15px 32px
+}
+#gato:hover{
+   box-shadow: 0 0 2px 1px blue;
+   transform: scale(2);
+}
+#tilin:hover{
+       transform: scale(-1);
+}
+#gay:hover{
+        box-shadow: 0 0 4px 1px green;
+        transform: scale(0.5);
+}
